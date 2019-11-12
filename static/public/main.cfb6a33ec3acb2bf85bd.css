@@ -1,0 +1,282 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'iconfont';
+  /* project id 65905 */
+  src: url("//at.alicdn.com/t/font_65905_gytzlirkm65.eot");
+  src: url("//at.alicdn.com/t/font_65905_gytzlirkm65.eot?#iefix") format("embedded-opentype"), url("//at.alicdn.com/t/font_65905_gytzlirkm65.woff2") format("woff2"), url("//at.alicdn.com/t/font_65905_gytzlirkm65.woff") format("woff"), url("//at.alicdn.com/t/font_65905_gytzlirkm65.ttf") format("truetype"), url("//at.alicdn.com/t/font_65905_gytzlirkm65.svg#iconfont") format("svg");
+}
+em,
+i {
+  font-style: normal;
+}
+input::-webkit-input-placeholder {
+  /* placeholder颜色  */
+  color: #ccc;
+  /* placeholder字体大小  */
+  font-size: 12px;
+}
+.iconfont {
+  font-family: 'iconfont';
+}
+* {
+  margin: 0;
+  padding: 0;
+  word-break: break-all;
+}
+button,
+input,
+textarea {
+  background: none;
+  border: none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+li,
+ul {
+  list-style: none;
+}
+html {
+  height: 100vh;
+  font-size: 20px;
+}
+
+.logo[data-v-2da03f9c] {
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 100%;
+}
+.logo i[data-v-2da03f9c] {
+    font-size: 3rem;
+}
+.logo p[data-v-2da03f9c] {
+    font-size: 0.6rem;
+}
+.main[data-v-2da03f9c] {
+  text-align: center;
+}
+.main .form[data-v-2da03f9c] {
+    padding: 0 1rem;
+    position: fixed;
+    top: 50%;
+    left: 1rem;
+    right: 1rem;
+    margin-top: -5rem;
+}
+.main .form ul li.input[data-v-2da03f9c] {
+      border-bottom: #e8e8e8 0.025rem solid;
+      margin-top: 0.25rem;
+}
+.main .form ul li.input input[data-v-2da03f9c] {
+        display: block;
+        height: 1.8rem;
+        width: 100%;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #333;
+}
+.main .form button[data-v-2da03f9c] {
+      display: inline-block;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      font-size: 0.8rem;
+      color: #fff;
+      background-color: #000;
+      border-radius: 1.125rem;
+      width: 100%;
+      margin-top: 2rem;
+}
+.main .form .register a[data-v-2da03f9c] {
+      display: inline-block;
+      color: #bbb;
+      font-size: 0.6rem;
+}
+.main .foot[data-v-2da03f9c] {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 0;
+    right: 0;
+}
+.main .foot a[data-v-2da03f9c] {
+      display: inline-block;
+      color: #bbb;
+      font-size: 0.6rem;
+}
+
+.team-item[data-v-523dbeaa] {
+  display: flex;
+  margin-top: 10px;
+}
+.value[data-v-523dbeaa] {
+  flex: 1;
+}
+
+.logo[data-v-43b53780] {
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 100%;
+}
+.logo i[data-v-43b53780] {
+    font-size: 3rem;
+}
+.logo p[data-v-43b53780] {
+    font-size: 0.6rem;
+}
+.main[data-v-43b53780] {
+  text-align: center;
+}
+.main .form[data-v-43b53780] {
+    padding: 0 1rem;
+    position: fixed;
+    top: 50%;
+    left: 1rem;
+    right: 1rem;
+    margin-top: -6.5rem;
+}
+.main .form ul li.input[data-v-43b53780] {
+      border-bottom: #e8e8e8 0.025rem solid;
+      margin-top: 0.25rem;
+}
+.main .form ul li.input input[data-v-43b53780] {
+        display: block;
+        height: 1.8rem;
+        width: 100%;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #333;
+}
+.main .form ul li.input .sentMsg[data-v-43b53780] {
+        font-size: 0.5rem;
+        background-color: #000;
+        height: 1rem;
+        line-height: 1rem;
+        color: #fff;
+        border-radius: 0.6rem;
+        padding: 0 0.5rem;
+        display: inline-block;
+        margin-bottom: 0.25rem;
+}
+.main .form button[data-v-43b53780] {
+      display: inline-block;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      font-size: 0.8rem;
+      color: #fff;
+      background-color: #000;
+      border-radius: 1.125rem;
+      width: 100%;
+      margin-top: 2rem;
+}
+.main .form .register a[data-v-43b53780] {
+      display: inline-block;
+      color: #bbb;
+      font-size: 0.6rem;
+}
+.main .foot[data-v-43b53780] {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 0;
+    right: 0;
+}
+.main .foot a[data-v-43b53780] {
+      display: inline-block;
+      color: #bbb;
+      font-size: 0.6rem;
+}
+
+.logo[data-v-8451d278] {
+  text-align: center;
+  position: fixed;
+  top: 10%;
+  left: 0;
+  width: 100%;
+}
+.logo i[data-v-8451d278] {
+    font-size: 3rem;
+}
+.logo p[data-v-8451d278] {
+    font-size: 0.6rem;
+}
+.main[data-v-8451d278] {
+  text-align: center;
+}
+.main .form[data-v-8451d278] {
+    padding: 0 1rem;
+    position: fixed;
+    top: 50%;
+    left: 1rem;
+    right: 1rem;
+    margin-top: -6.5rem;
+}
+.main .form ul li.input[data-v-8451d278] {
+      border-bottom: #e8e8e8 0.025rem solid;
+      margin-top: 0.25rem;
+}
+.main .form ul li.input input[data-v-8451d278] {
+        display: block;
+        height: 1.8rem;
+        width: 100%;
+        text-align: center;
+        font-size: 0.7rem;
+        color: #333;
+}
+.main .form ul li.input .sentMsg[data-v-8451d278] {
+        font-size: 0.6rem;
+        background-color: #000;
+        height: 1rem;
+        line-height: 1rem;
+        color: #fff;
+        border-radius: 0.6rem;
+        padding: 0 0.5rem;
+        display: inline-block;
+        margin-bottom: 0.25rem;
+}
+.main .form button[data-v-8451d278] {
+      display: inline-block;
+      height: 2.25rem;
+      line-height: 2.25rem;
+      font-size: 0.8rem;
+      color: #fff;
+      background-color: #000;
+      border-radius: 1.125rem;
+      width: 100%;
+      margin-top: 2rem;
+}
+.main .form .register a[data-v-8451d278] {
+      display: inline-block;
+      color: #bbb;
+      font-size: 0.6rem;
+}
+.main .foot[data-v-8451d278] {
+    position: fixed;
+    bottom: 0.5rem;
+    left: 0;
+    right: 0;
+}
+.main .foot a[data-v-8451d278] {
+      display: inline-block;
+      color: #bbb;
+      font-size: 0.6rem;
+}
+
+.team-item[data-v-75b2ce10] {
+  display: flex;
+  margin-top: 10px;
+}
+.value[data-v-75b2ce10] {
+  flex: 1;
+}
+
+input[data-v-10edd869] {
+  border: 1px solid #000;
+}
+

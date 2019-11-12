@@ -1,0 +1,25 @@
+version: "3"
+services:
+  qyb:
+    container_name: ${container_name}
+    image: ${image}
+    working_dir: /data/www/app/
+    ports:
+      - "${port}:${port}"
+    environment:
+      - TZ=Asia/Shanghai
+      - NODE_ENV=${NODE_ENV}
+    volumes:
+      - ./dist/:/data/www/app/dist/
+      - ./views/:/data/www/app/views/
+      - ./uploads/:/data/www/app/uploads/
+      - ./static/:/data/www/app/static/
+      - ./ecosystem.config.js:/data/www/app/ecosystem.config.js
+    restart: always
+    extra_hosts:
+      - "mysql.com:${extra_hosts_mysql}"
+      - "redis.com:${extra_hosts_redis}"
+    networks:
+      - default
+    command: ["node_modules/.bin/pm2-runtime", "ecosystem.config.js"]
+# ["node_modules/.bin/pm2-runtime", "ecosystem.config.js", "--disable_logs"]
