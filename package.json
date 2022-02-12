@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@alicloud/pop-core": "1.7.7",
-    "ajv": "6.10.0",
+    "ajv": "6.12.3",
     "ajv-errors": "1.0.1",
     "ali-oss": "6.1.1",
     "async-validator": "1.11.3",
