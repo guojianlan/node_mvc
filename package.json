@@ -31,7 +31,7 @@
     "koa-static-cache": "5.1.2",
     "module-alias": "2.2.0",
     "mysql2": "1.6.5",
-    "pm2": "3.5.1",
+    "pm2": "5.2.0",
     "probe-image-size": "4.0.0",
     "ramda": "0.26.1",
     "reflect-metadata": "0.1.13",
